@@ -1,29 +1,28 @@
 {
-  "name": "pingpong/presenters",
-  "description": "Laravel Presenter",
-  "keywords": [
-    "laravel",
-    "pingpong",
-    "simple",
-    "presenters"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Pingpong Labs",
-      "email": "pingpong.labs@gmail.com"
+    "name": "pingpong/presenters",
+    "description": "Laravel Presenter",
+    "keywords": [
+        "laravel",
+        "pingpong",
+        "simple",
+        "presenters"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pingpong Labs",
+            "email": "pingpong.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "^5.2",
+        "illuminate/support": "^5.2",
+        "illuminate/container": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pingpong\\Presenters\\": "src/"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/database": "5.1.*",
-    "illuminate/support": "5.1.*",
-    "illuminate/container": "5.1.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Pingpong\\Presenters\\": ""
-    }
-  },
-  "minimum-stability": "stable"
 }
